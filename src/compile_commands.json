@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/home/jacob/Projects/learnopengl/renderer/src",
+  "command": "/usr/bin/cc  -I/home/jacob/Projects/learnopengl/renderer/src/glad/include  -o CMakeFiles/glad.dir/glad/src/glad.c.o -c /home/jacob/Projects/learnopengl/renderer/src/glad/src/glad.c",
+  "file": "/home/jacob/Projects/learnopengl/renderer/src/glad/src/glad.c",
+  "output": "CMakeFiles/glad.dir/glad/src/glad.c.o"
+},
+{
+  "directory": "/home/jacob/Projects/learnopengl/renderer/src",
+  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/log.dir/log/log.cpp.o -c /home/jacob/Projects/learnopengl/renderer/src/log/log.cpp",
+  "file": "/home/jacob/Projects/learnopengl/renderer/src/log/log.cpp",
+  "output": "CMakeFiles/log.dir/log/log.cpp.o"
+},
+{
+  "directory": "/home/jacob/Projects/learnopengl/renderer/src",
+  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/texture.dir/textures/texture.cpp.o -c /home/jacob/Projects/learnopengl/renderer/src/textures/texture.cpp",
+  "file": "/home/jacob/Projects/learnopengl/renderer/src/textures/texture.cpp",
+  "output": "CMakeFiles/texture.dir/textures/texture.cpp.o"
+},
+{
+  "directory": "/home/jacob/Projects/learnopengl/renderer/src",
+  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/mesh.dir/model/mesh/mesh.cpp.o -c /home/jacob/Projects/learnopengl/renderer/src/model/mesh/mesh.cpp",
+  "file": "/home/jacob/Projects/learnopengl/renderer/src/model/mesh/mesh.cpp",
+  "output": "CMakeFiles/mesh.dir/model/mesh/mesh.cpp.o"
+},
+{
+  "directory": "/home/jacob/Projects/learnopengl/renderer/src",
+  "command": "/usr/bin/c++   -std=gnu++20 -o CMakeFiles/model.dir/model/model.cpp.o -c /home/jacob/Projects/learnopengl/renderer/src/model/model.cpp",
+  "file": "/home/jacob/Projects/learnopengl/renderer/src/model/model.cpp",
+  "output": "CMakeFiles/model.dir/model/model.cpp.o"
+},
+{
+  "directory": "/home/jacob/Projects/learnopengl/renderer/src",
+  "command": "/usr/bin/c++  -I/home/jacob/Projects/learnopengl/renderer/src/glad/include -std=gnu++20 -o CMakeFiles/renderer.dir/main.cpp.o -c /home/jacob/Projects/learnopengl/renderer/src/main.cpp",
+  "file": "/home/jacob/Projects/learnopengl/renderer/src/main.cpp",
+  "output": "CMakeFiles/renderer.dir/main.cpp.o"
+}
+]
