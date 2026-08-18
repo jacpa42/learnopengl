@@ -78,8 +78,8 @@ int main() {
   // Create the shaders
   {
     std::optional<Shader> shader_opt =
-        Shader::create("model_shader", "../src/shaders/vertex/basic.glsl",
-                       "../src/shaders/fragment/basic.glsl");
+        Shader::create("model_shader", "src/shaders/vertex/basic.glsl",
+                       "src/shaders/fragment/basic.glsl");
 
     if (!shader_opt.has_value()) {
       ERROR("Failed to construct shader. Exiting");
@@ -88,8 +88,8 @@ int main() {
     model_shader = std::move(*shader_opt);
 
     shader_opt =
-        Shader::create("compass_shader", "../src/shaders/vertex/compass.glsl",
-                       "../src/shaders/fragment/compass.glsl");
+        Shader::create("compass_shader", "src/shaders/vertex/compass.glsl",
+                       "src/shaders/fragment/compass.glsl");
 
     if (!shader_opt.has_value()) {
       ERROR("Failed to construct shader. Exiting");
@@ -102,7 +102,7 @@ int main() {
 
   {
     std::optional<Model> model_opt = Model::load(
-        "../src/model/assets/doom-eternal-cacodemon/cacodemon_LOD0.obj");
+        "src/model/assets/doom-eternal-cacodemon/cacodemon_LOD0.obj");
 
     if (model_opt.has_value()) {
       cacodemon = *model_opt;
