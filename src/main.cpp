@@ -102,7 +102,7 @@ int main() {
 
   {
     std::optional<Model> model_opt = Model::load(
-        "src/model/assets/doom-eternal-cacodemon/cacodemon_LOD0.obj");
+        "src/model/assets/doom-eternal-dark-lord/darklord_mech_LOD0.obj");
 
     if (model_opt.has_value()) {
       cacodemon = *model_opt;
